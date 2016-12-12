@@ -4,7 +4,7 @@ import { Hero } from './hero';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.styl']
 })
 export class AppComponent {
   title = 'Tour of Heroes';
@@ -14,7 +14,7 @@ export class AppComponent {
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
   }
-   
+
 }
 
 const HEROES: Hero[] = [
