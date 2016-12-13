@@ -9,6 +9,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
 
+Example 1: `ng g component hero-detail`
+Example 2: `ng g class hero`
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
@@ -24,7 +27,8 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Deploying to Github Pages
 
-Run `ng github-pages:deploy` to deploy to Github Pages.
+Run `ng build --prod --base-href /angdue/ --output-path=docs`
+[angdue's Github Page](https://digitaltools.github.io/angdue/)
 
 ## Further help
 
